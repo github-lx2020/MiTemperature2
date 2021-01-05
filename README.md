@@ -26,7 +26,7 @@ install via
 Additional requirements if you want to use the atc version. If you don't use ATC version, please ignore this section.
 ```
 apt install bluetooth libbluetooth-dev
-pip3 install pybluez
+pip3 install pybluez (sometimes this might be needed instead: python3 -m pip install pybluez)
 ```
 
 Bluetooth LE Scanning needs root. To run the script for AT with normal user rights, please execute
